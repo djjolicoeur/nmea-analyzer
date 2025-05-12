@@ -1,0 +1,114 @@
+.connection-form {
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.connect {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.disconnect {
+    background-color: #f44336;
+    color: white;
+}
+
+.connection-status {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.status.connected {
+    color: #4CAF50;
+}
+
+.status.connecting {
+    color: #2196F3;
+}
+
+.status.error {
+    color: #f44336;
+}
+
+.status.disconnected {
+    color: #666;
+}
+
+.frames-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.nmea-frame {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.frame-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.frame-data {
+    font-family: monospace;
+    white-space: pre-wrap;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 2px;
+}
+.connection-status {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.status.connecting {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status.connected {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
