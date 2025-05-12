@@ -111,7 +111,7 @@
        [:div.frames-list {:style {:max-height "400px"
                                   :overflow-y "auto"}}
         (for [{:keys [type timestamp raw talker-id] :as sentence} (take-last 10 nmea-data)]
-          ^{:key timestamp}
+          ^{:key (str timestamp "-" type "-" talker-id)}
           [:div.nmea-sentence {:style {:margin "10px 0"
                                        :padding "10px"
                                        :border "1px solid #e0e0e0"
